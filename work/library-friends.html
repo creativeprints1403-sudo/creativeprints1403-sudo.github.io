@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Maple Street Library Friends (concept)</title>
+<style>
+:root{--green:#2f5d50;--leaf:#6a9a7b;--cream:#fbf8f1;--ink:#1f2a24;--muted:#56645c}
+*{box-sizing:border-box}
+body{margin:0;font-family:Georgia,"Times New Roman",serif;color:var(--ink);background:var(--cream);line-height:1.65}
+.wrap{max-width:1000px;margin:0 auto;padding:0 16px}
+.note{background:#1f2a24;color:#fff;font:14px system-ui,sans-serif;text-align:center;padding:8px 16px}
+.note a{color:#cfe8d6}
+nav{display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:12px;padding:18px 0}
+nav strong{font-size:1.2rem;color:var(--green)}
+nav ul{list-style:none;display:flex;flex-wrap:wrap;gap:18px;margin:0;padding:0;font-family:system-ui,sans-serif;font-size:.95rem}
+nav a{color:var(--ink);text-decoration:none}
+.donate{background:var(--green);color:#fff!important;padding:8px 16px;border-radius:999px}
+.hero{background:var(--green);color:#fff;padding:72px 0}
+.hero h1{font-size:clamp(2rem,5vw,3.2rem);line-height:1.15;margin:0 0 16px;max-width:16ch}
+.hero p{font-size:1.15rem;max-width:50ch;opacity:.92;margin:0 0 24px}
+.btn{display:inline-block;background:#fff;color:var(--green);font:600 1rem system-ui,sans-serif;padding:12px 22px;border-radius:999px;text-decoration:none;margin:0 8px 8px 0}
+.btn.alt{background:transparent;color:#fff;border:2px solid #fff}
+section{padding:56px 0}
+h2{font-size:1.8rem;margin:0 0 24px;color:var(--green)}
+.grid{display:grid;gap:20px;grid-template-columns:repeat(auto-fit,minmax(240px,1fr))}
+.event{background:#fff;border-radius:12px;padding:22px;border-top:5px solid var(--leaf)}
+.date{font:700 .85rem system-ui,sans-serif;text-transform:uppercase;letter-spacing:.06em;color:var(--leaf)}
+.event h3{margin:6px 0}
+.event p{margin:0;color:var(--muted)}
+.stats{background:#fff}
+.stat b{display:block;font-size:2.4rem;color:var(--green)}
+.stat span{color:var(--muted);font-family:system-ui,sans-serif}
+.join{background:var(--leaf);color:#fff;border-radius:16px;padding:40px 28px}
+.join h2{color:#fff}
+footer{padding:40px 0;color:var(--muted);font:14px system-ui,sans-serif}
+</style>
+</head>
+<body>
+<div class="note">Concept site for a fictional organization. <a href="../portfolio.html">Back to portfolio</a></div>
+<div class="wrap"><nav>
+  <strong>Maple Street Library Friends</strong>
+  <ul><li><a href="#events">Events</a></li><li><a href="#impact">Impact</a></li><li><a href="#join">Membership</a></li><li><a class="donate" href="#join">Donate</a></li></ul>
+</nav></div>
+
+<div class="hero"><div class="wrap">
+  <h1>Every great library has friends.</h1>
+  <p>We raise money for programs, books and summer reading at the Maple Street Public Library. Through book sales and memberships, our neighbors keep it thriving.</p>
+  <a class="btn" href="#join">Become a member</a><a class="btn alt" href="#events">See upcoming events</a>
+</div></div>
+
+<section id="events"><div class="wrap">
+  <h2>Upcoming events</h2>
+  <div class="grid">
+    <div class="event"><div class="date">Sat, Dec 6</div><h3>Winter Used Book Sale</h3><p>Thousands of books, $1–$3 each. Members get early entry at 9am.</p></div>
+    <div class="event"><div class="date">Thu, Dec 11</div><h3>Author Talk &amp; Signing</h3><p>A local novelist on writing the town's history. Free, with coffee provided.</p></div>
+    <div class="event"><div class="date">Mon, Jan 12</div><h3>Volunteer Orientation</h3><p>Help sort donations and run the shop. One hour, all ages welcome.</p></div>
+  </div>
+</div></section>
+
+<section id="impact" class="stats"><div class="wrap">
+  <h2>Your support at work this year</h2>
+  <div class="grid">
+    <div class="stat"><b>1,240</b><span>kids in summer reading</span></div>
+    <div class="stat"><b>$38k</b><span>raised for library programs</span></div>
+    <div class="stat"><b>310</b><span>member households</span></div>
+  </div>
+</div></section>
+
+<section id="join"><div class="wrap"><div class="join">
+  <h2>Join for $25 a year</h2>
+  <p>Members get early access to book sales, a quarterly newsletter and the satisfaction of keeping a great library great.</p>
+  <a class="btn" href="#">Join or donate online</a>
+</div></div></section>
+
+<footer><div class="wrap">Maple Street Library Friends is a fictional organization used for a design concept.</div></footer>
+</body>
+</html>
